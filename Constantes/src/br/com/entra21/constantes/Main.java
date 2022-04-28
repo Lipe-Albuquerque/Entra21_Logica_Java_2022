@@ -9,7 +9,7 @@ public class Main {
 		
 		idade = 33;
 		
-		idade = 44;
+		
 		
 		
 		
