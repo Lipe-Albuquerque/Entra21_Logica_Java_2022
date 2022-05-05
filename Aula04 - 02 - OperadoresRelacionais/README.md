@@ -10,3 +10,4 @@
 
 > >= maior ou igual
   
+     
