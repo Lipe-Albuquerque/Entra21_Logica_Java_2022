@@ -39,7 +39,7 @@ public class Main {
 			break;
 		case "5":
 			System.out.println("Informe um numero para saber a sua tabuada");
-			retornarTabada(entrada.nextInt());
+			retornarTabuada(entrada.nextInt());
 			break;
 		case "6":
 			exibirTodasAsTabuadas();
@@ -140,4 +140,4 @@ public class Main {
 			}
 		}
 	}
-}}
+}
