@@ -14,7 +14,7 @@ public class Main {
 					"\nDigite qual programa deseja utilizar: \n 0- Sair \n 1- Calculadora a Soma \n 2- Repetir 20 vezes quebrando linha \n"
 							+ " 3- Entre 20 pessoas exibir a soma das idades \n 4- Entre 20 pessoas quantos são maiores de idade \n"
 							+ " 5- Leia o nome e a idade de 10 pessoas e exiba o nome da pessoa mais nova \n"
-							+ " 6- Escreva um algoritmo que leia 20 números do usuário e exiba quantos números são pares");
+							+ " 9- Escreva um algoritmo que leia 20 números do usuário e exiba quantos números são pares");
 			option = input.nextLine();
 
 			switch (option.toLowerCase()) {
@@ -35,7 +35,7 @@ public class Main {
 			case "5":
 				exibirMaisNovo();
 				break;
-			case "6":
+			case "9":
 				mediaAlunos();
 				break;
 			default:
