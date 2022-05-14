@@ -14,7 +14,7 @@ public class Main {
 					"\nDigite qual programa deseja utilizar: \n 0- Sair \n 1- Calculadora a Soma \n 2- Repetir 20 vezes quebrando linha \n"
 							+ " 3- Entre 20 pessoas exibir a soma das idades \n 4- Entre 20 pessoas quantos são maiores de idade \n"
 							+ " 5- Leia o nome e a idade de 10 pessoas e exiba o nome da pessoa mais nova \n"
-							+ " 9- Escreva um algoritmo que leia 20 números do usuário e exiba quantos números são pares");
+							+ " 8 - Capture N numeros acumule a soma e só para quando for informado um numero negativo\n 9- Escreva um algoritmo que leia 20 números do usuário e exiba quantos números são pares");
 			option = input.nextLine();
 
 			switch (option.toLowerCase()) {
@@ -38,6 +38,9 @@ public class Main {
 			case "9":
 				mediaAlunos();
 				break;
+			case "8":
+				exerciseOito();
+
 			default:
 				System.out.println("Digite uma opção valida");
 				break;
@@ -135,32 +138,52 @@ public class Main {
 		System.out.println("Após isso tudo o mais novo é: " + youngerName + " " + ageMinimal);
 
 	}
-	
-	
-	private static void mediaAlunos() {
-        Scanner input = new Scanner(System.in);
-        byte qtd, contador = 0;
-        float nota, soma = 0f;
-        System.out.println("Quantas notas vc quer capturar?");
-        qtd = input.nextByte();
-        String resposta;
- 
-        do {
-            contador++;
-            System.out.println("Informe uma nota");
-            nota = input.nextFloat();
-            if (contador >= qtd) {
-                System.out.println("Quer capturar mais alguma nota?");
-                resposta = input.next();
-                if (resposta.equals("sim")) {
-                    contador--;
-                }
-            }
- 
-            soma = soma + nota;
-        } while (contador <= qtd);
-        System.out.println("Soma =" + soma);
-    }
-	
 
+	private static void mediaAlunos() {
+		Scanner input = new Scanner(System.in);
+		byte qtd, contador = 0;
+		float nota, soma = 0f;
+		System.out.println("Quantas notas vc quer capturar?");
+		qtd = input.nextByte();
+		String resposta;
+
+		do {
+			contador++;
+			System.out.println("Informe uma nota");
+			nota = input.nextFloat();
+			if (contador >= qtd) {
+				System.out.println("Quer capturar mais alguma nota?");
+				resposta = input.next();
+				if (resposta.equals("sim")) {
+					contador--;
+				}
+			}
+
+			soma = soma + nota;
+		} while (contador <= qtd);
+		System.out.println("Soma =" + soma);
+	}
+
+	public static void exerciseOito() {
+
+		// Escreva um algoritmo que leia uma sequência de números do usuário e realize a
+		// soma desses números. Encerre a execução quando um número negativo for
+		// digitado.
+
+		Scanner inPut = new Scanner(System.in);
+		int number, sum = 0; // se não inicializa um valor na váriavel ela fica com lixo da memória.
+
+		do {
+
+			System.out.println("What number do you want?");
+			number = inPut.nextInt();
+			if (number >= 0) {
+				sum = sum + number;
+			} // somente números positivos serão somados, ou números naturais.
+
+		} while (number >= 0); // enquanto o número for maior que zero repita
+
+		System.out.println("Your sum is: " + sum);
+
+	}
 }
