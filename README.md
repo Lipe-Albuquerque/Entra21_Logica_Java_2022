@@ -15,7 +15,7 @@ Repository with practices carried out in class
 |Aula 02 - 01|[Variáveis](./Aula%20002%20-%20Variaveis/)                                    
 |Aula 02 - 02|[Constantes](./Aula%20002%20-%20Constantes)
 |Aula 03 - 01|[Operadores Aritméticos](./Aula%20003%20-%20OperadoresAritimeticos/)
-|Aula 03 - 02|[Incremento e Decremento](.Aula%20003%20-%20Incremeto%20e%20decremento/)
+|Aula 03 - 02|[Incremento e Decremento](./Aula%20003%20-%20Incremeto%20e%20decremento/)
 |Aula 04 - 01|[Operadores de Igualdade](./Aula04%20-%2001%20-%20OperadoresDeIgualdade/)
 |Aula 04 - 02|[Operadores Relacionais](./Aula04%20-%2002%20-%20OperadoresRelacionais/)
 |Aula 04 - 03|[Operadores Lógicos](./Aula04%20-%2003%20-%20OperadoresLogicos/)
