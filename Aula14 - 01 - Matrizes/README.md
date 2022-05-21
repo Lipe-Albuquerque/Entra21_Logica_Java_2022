@@ -1,8 +1,23 @@
-# Aprendendo matrizes
+# learning matrices
 
-## Matrizes são vetores de vetores
+## Matrices are vectors of vectors
 
-> Exemplos
+> Examples
 
-> - quero armazenar 3 notas para cada aluno do total de 10
-> - float notasAlunos[][] = new float[10][3]
+> - I want to store 3 grades for each of my 5 students
+> -  float gradesStudents [][]= new float[5][3];
+>    - [0] ==> { 0f , 0f ,0f}
+>    - [1] ==> { 0f , 0f ,0f}
+>    - [2] ==> { 0f , 0f ,0f}
+>    - [3] ==> { 0f , 0f ,0f}
+>    - [4] ==> { 0f , 0f ,0f}
+
+> initialize an array with values
+```java
+float salaryStudents[][]= {
+                {1000 , 1250.50f , 2500.35f },
+                        {2600 , 3500 , 4500 },
+                        {50000 , 150000 , 2000000 },
+                        {50000 , 150000 , 2000000 },
+ }; //length 4
+ ```

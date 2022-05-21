@@ -1,6 +1,6 @@
-# Aprendendo sobre whilhe e do while
+# Learning about while and do while
 
-- usamos um menu para praticar nossa logica
-- usamos switch para fazer a seleção de while e do while
-- aprendemos a usabilidade do While
-- aprendemos a usabilidade do Do While
+- we use a menu to practice our logic
+- use switch to select while and while
+- we learned the usability of the While
+- we learned the usability of Do While

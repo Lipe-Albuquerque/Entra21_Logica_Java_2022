@@ -1,9 +1,8 @@
-# Exercicios em sala
+# learning about vectors
 
-## importante acessar os exercicios com um menu
-- 
--
--
--
--
--
+## important to access the exercises with a menu
+- Creation
+- Definition
+- Access indexes
+- Update values ​​by indices
+

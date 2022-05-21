@@ -1,11 +1,11 @@
-# Aprendendo sobre variaveis
+# Learning variables
 
-## Tipos primitivos
+## types
 
 - byte
 - short
 - int
-- long
-- char
-- boolean
-- 
+- long 
+- float 
+- double 
+- boolean  

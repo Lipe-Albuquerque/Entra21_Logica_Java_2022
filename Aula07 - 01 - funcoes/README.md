@@ -1,6 +1,5 @@
-# Aprendendo sobre funções
-
-- Procedimento
-- Com parametro
-- Com retorno
-- Com parametro e retorno
+# learning about functions
+- Procedure
+- With parameter
+- With return
+- With parameter and with return

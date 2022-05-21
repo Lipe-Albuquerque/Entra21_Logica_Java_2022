@@ -1,13 +1,12 @@
-# aprendendo sobre operadores relacionais
+# learning about relational operators
+## types
 
-## tipos
+> (<) less than (this comparison does not check if the number is equal too)
 
-> < menor que
+> (<=) less than or equal to (this comparison checks if the number is also equal)
 
-> <= menor ou igual
+> (>) greater than (this comparison does not check if the number is equal too)
 
-> > maior que
-
-> >= maior ou igual
+> (>=) maior ou igual que (essa comparação verifica se o numero também é igual)
   
      
